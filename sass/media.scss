@@ -1,0 +1,556 @@
+@media screen and (max-width: 1604px){
+  .main-form{
+    &__wrapper{
+      padding: 0;
+    }
+    &__input-wrapper{
+      margin-left: 26%;
+    }
+    &__input-wrapper .btn{
+      margin-right: 20px;
+    }
+  }
+  .price{
+    &__preview{
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0;
+      &-text{
+        margin: 0;
+        flex-basis: 100%;
+        max-width: none;
+        margin-left: 26%;
+        &-bold{
+          margin: 0;
+          margin-left: 26%;
+        }
+      }
+      &-btn{
+        display: block;
+      }
+    }
+  }
+  .gallery{
+    background: url(../img/back-top.png) no-repeat;
+    background-position-x: center;
+  }
+}
+@media screen and (max-width: 1370px){
+  .main-header{
+    &__logo a{
+      font-size: 38px;
+    }
+    &__social{
+      a, p{
+        font-size: 18px;
+      }
+    }
+    &__location{
+      margin-left: 20px;
+    }
+    &__phone>a{
+      font-size: 18px;
+    }
+  }
+  .stages{
+    &__step-list{
+      padding: 0;
+    }
+  }
+  .price{
+    &__list .container{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &__item{
+      flex-basis: 50%;
+      margin: 20px;
+      border: 3px solid pink;
+    }
+    &__item:last-child{
+      margin: 20px;
+    }
+    &__preview{
+      display: block;
+      background: transparent;
+      padding:70px 20px 20px 20px;
+      background: linear-gradient(to top left, powderblue, pink);
+      height: auto;
+      &-text{
+        margin: 0;
+        text-align: center;
+        padding: 0;
+        &-bold{
+          text-align: center;
+          margin: 50px auto;
+          display: block;
+        }
+      }
+      &-btn{
+        margin: auto;
+        background-color: #ff0063;
+        margin-bottom: 30px;
+        &:hover{
+          background-color: #e20259;
+        }
+      }
+    }
+    &__table{
+      position: relative;
+      transform: none;
+      width: 100%;
+      top: unset;
+      left: unset;
+      margin-right:0;
+      margin: auto;
+      &-wrapper{
+        top:0;
+	      left:0;
+        bottom:0;
+        right: 0;
+        display: flex;
+	      position:fixed;
+        overflow-y:scroll;
+        overflow-x:hidden;
+      }
+      &-wrapper::-webkit-scrollbar { 
+        width: 0; 
+      }
+      &-close-btn{
+        top: 20px;
+        right: 20px;
+      }
+      th{
+        padding-top: 60px;
+        padding-bottom: 5px;
+      }
+      .price__table-cell{
+        font-size: 18px;
+      }
+    }
+  }
+  .main-footer{
+    &__logo a{
+      font-size: 38px;
+    }
+    &__social{
+      a, p{
+        font-size: 18px;
+      }
+    }
+    &__location{
+      margin-left: 20px;
+    }
+    &__phone>a{
+      font-size: 18px;
+    }
+  }
+  .stages{
+    &__step-list{
+      padding: 0;
+    }
+  }
+  .to-order .main-form{
+    &__wrapper{
+      background: transparent;
+      background: linear-gradient(to top left, powderblue, pink);
+      padding: 54px;
+    }
+    &__title{
+      padding: 0;
+      margin-top: 0;
+    }
+  }
+}
+@media screen and (max-width: 1096px){
+  body{
+    background: url(../img/ded-moroz.png) no-repeat 50px 350px, url(../img/header-back.jpg) no-repeat;
+    background-position-x: center;
+  }
+  .main-form{
+    &__wrapper{
+      background: transparent;
+      background: linear-gradient(to top left, powderblue, pink);
+      padding: 54px;
+    }
+    &__title{
+      padding: 0;
+      margin: auto;
+      text-align: center;
+    }
+    &__text{
+      margin: auto;
+      margin-top: 30px;
+      margin-bottom: 50px;
+      text-align: center;
+    }
+    &__input-wrapper{
+      margin: auto;
+      .btn{
+        background-color: #ff0063;
+        &:hover{
+          background-color: #e20259;
+        }
+      }
+    }
+    &__input{
+      border-color: #ff0063;
+    }
+  }
+  .to-order{
+    &__title{
+      display: block;
+    }
+  }
+}
+@media screen and (max-width: 1036px){
+  .main-header{
+    padding-bottom: 40px;
+    &-wrapper{
+      display: block;
+    }
+    &__logo{
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    &__social{
+      max-width: 280px;
+      margin: auto;
+      margin-bottom: 20px;
+    }
+    &__phone{
+      text-align: center;
+    }
+  }
+  .main-footer{
+    padding-bottom: 40px;
+    &-wrapper{
+      display: block;
+    }
+    &__logo{
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    &__social{
+      max-width: 280px;
+      margin: auto;
+      margin-bottom: 20px;
+    }
+    &__phone{
+      text-align: center;
+    }
+  }
+  .intro{
+    &__title{
+      text-align: center;
+
+    }
+  }
+}
+@media screen and (max-width: 868px){
+  .main-form{
+    &__input-wrapper{
+      display: block;
+    }
+    &__input-wrapper .btn{
+      display: block;
+      margin: auto;
+      max-width: none;
+    }
+    &__input{
+      display: block;
+      margin: auto;
+      margin-bottom: 20px;
+      max-width: none;
+    }
+    &__title{
+      font-size: 24px;
+    }
+    &__text{
+      font-size: 18px;
+    }
+  }
+  .intro{
+    &__title{
+      font-size: 38px;
+      margin-bottom: 350px;
+      padding-left: 0;
+    }
+    &__title-h2{
+      font-size: 38px;
+    }
+    &__preview{
+      display: block;
+      &-video{
+        margin: auto;
+        margin-bottom: 50px;
+      }
+      &-text{
+        padding: 0 10px;
+        text-align: center;
+
+      }
+    }
+    &__advantage{
+      &-list{
+      display: block;
+      }
+      &-item{
+        margin: auto;
+        margin-bottom: 50px;
+      }
+      &-title{
+        font-size: 24px;
+      }
+      &-text{
+        font-size: 18px;
+      }
+      &-item:nth-child(2){
+        margin: auto;
+      }
+    }
+  }
+  .stages{
+    height: auto;
+    &__title{
+      font-size: 38px;
+      margin-bottom: 50px;
+    }
+    &__step-list{
+      display: block;
+    }
+    &__step-item{
+      margin: auto;
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 25px;
+      margin-bottom: 30px;
+      border:  3px solid pink ;
+    }
+    &__step-title{
+      min-height: auto;
+      margin-bottom: 50px;
+    }
+    &__step-item:nth-child(2){
+      margin: auto;
+      margin-bottom: 30px;
+    }
+    &__step-btn{
+      display: block;
+      margin: auto;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+  }
+  .gallery{
+    &__title{
+      font-size: 38px;
+    }
+  }
+  .reviews{
+    height: auto;
+    margin-bottom: 100px;
+    background: none;
+    &__block-wrapper{
+      border: 5px solid pink;
+      padding: 30px;
+      margin-top: 0;
+      border-radius: 15px;
+    }
+  }
+}
+@media screen and (max-width: 767px){
+  .btn{
+    height: 50px;
+    line-height: 50px;
+  }
+  .main-form{
+    &__wrapper{
+      padding: 20px;
+    }
+    &__title{
+      font-size: 20px;
+    }
+    &__text{
+      font-size: 16px;
+    }
+    &__input{
+      height: 50px;
+    }
+    &__btn{
+      height: 50px;
+      line-height: 50px;
+    }
+  }
+  .intro{
+    &__preview{
+      &-video{
+        width: 100%;
+      }
+    }
+  }
+  .gallery{
+    &__slider-img{
+      width: 100%;
+    }
+  }
+  .price{
+    background-position-x: -160px;
+    &__item{
+      margin-left: 0;
+      margin-right: 0;
+      flex-basis: 100%;
+      padding: 30px 15px;
+      &-title{
+        font-size: 24px;
+      }
+      &-text{
+        font-size: 16px;
+        padding: 0;
+      }
+      &-value{
+        font-size: 18px;
+      }
+    }
+    &__item:last-child{
+      margin-left: 0;
+      margin-right: 0;
+    }
+    &__preview{
+      &-text{
+        font-size: 24px;
+      &-bold{
+        font-size: 24px;
+        }
+      }
+    }
+    &__list-btn{
+      margin-top: 50px;
+    }
+  }
+  .price tr td:last-child, .price th:last-child{
+    padding-right: 10px;
+  }
+  .reviews{
+    &__title{
+      font-size: 38px;
+      margin-bottom:100px;
+    }
+    &__block{
+      &-wrapper{
+      border: 5px solid pink;
+      padding: 20px;
+      margin-top: 0;
+      }
+      &-photo img{
+        max-width: 80px;
+      }
+      &-text{
+        font-size: 16px;
+      }
+      &-name{
+        font-size: 16px;
+      }
+    }
+  }
+  .to-order{
+    background-position-y: 300px;
+    &__title{
+      font-size: 34px;
+    }
+    .main-form{
+      &__wrapper{
+        padding: 20px;
+      }
+    }
+  }
+  .main-footer{
+    margin: 0;
+    padding-top: 350px;
+  }
+  
+}
+@media (max-width: 545px){
+  body{
+    background: url(../img/ded-moroz.png) no-repeat 0 480px, url(../img/header-back.jpg) no-repeat;
+    background-position-x: center;
+  }
+  .gallery{
+    height: auto;
+    padding-bottom: 200px;
+    &__title{
+      font-size: 38px;
+    }
+    &__slider{
+      margin-top: 50px;
+      position: relative;
+      .slick-prev{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transform: scale(0.7);
+      }
+      .slick-next{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        transform: scale(0.7);
+      }
+    }
+  }
+  .price__table{
+    position: relative;
+    transform: none;
+    width: auto;
+    top: unset;
+    left: unset;
+    margin-right:0;
+    margin: auto;
+    &-wrapper{
+      top:0;
+      left:0;
+      bottom:0;
+      right: 0;
+      position:fixed;
+      overflow-y:scroll;
+      overflow-x:hidden;
+    }
+    
+    &-close-btn{
+      top: 20px;
+      right: 20px;
+    }
+    th{
+      padding-top: 60px;
+      padding-bottom: 5px;
+    }
+    .price__table-cell{
+      font-size: 14px;
+    }
+  }
+  .sucsess{
+    &-block{
+      position: relative;
+      margin: auto;
+      background-color: #ffffff;
+      width: 600px;
+      border-radius: 25px;
+      border: 5px solid #f80000;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    &-message-title{
+      font-size: 22px;
+      font-weight: bold;
+    }
+    &-message-text{
+      font-size: 18px;
+      margin-top: 75px;
+    }
+    &-message-close-btn{
+      position: absolute; right: 20px;
+      top: 15px;
+      cursor: pointer;
+    }
+  }
+}
